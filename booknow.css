@@ -4,33 +4,14 @@ html {
     color: #a4ad96;
     box-sizing: border-box;
     
-}
-
 *, 
 * ::before
 * ::after {
     box-sizing: inherit ;
-     background-color: #C3CF9F;
-                font-family: "Poppins", Sans-serif;
-                font-size: 14px;
-                font-weight: 300;
-                text-transform: uppercase;
-                font-style: normal;
-                text-decoration: none;
-                line-height: 1.3em;
-                letter-spacing: 1.53px;
-                fill: #0F1509;
-                color: #0F1509;
-                border-style: solid;    
-                border-width: 1px 1px 1px 1px;
-                border-color: #C3CF9F;
-                border-radius: 10px 10px 10px 10px;
-                padding: 15px 20px 15px 20px;
-                }   
-            }
+}
 
 nav {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     margin: 0 auto 3px;
     padding: 1px;
     width: 100%;
@@ -44,6 +25,7 @@ nav ul {
     list-style-type: none;
     margin: 9px;
     padding: 20px;
+    gap: 10px;
 }
 
 nav li {
@@ -51,18 +33,31 @@ nav li {
 }
 
 nav a {
-    padding: 20px;
-    display: inline-block;
-    color: #a4ad96;
-    text-decoration: none;
-    text-transform: none;
-    letter-spacing: 1px
-}
+    background-color: #C3CF9F;
+                font-family: "Poppins", Sans-serif;
+                font-size: 14px;
+                font-weight: 300;
+                text-transform: uppercase;
+                font-style: normal;
+                text-decoration: none;
+                line-height: 1.3em;
+                letter-spacing: 1.53px;
+                fill: #0F1509;
+                color: #0F1509;
+                border-style:   solid;    
+                border-spacing: 1px;      
+                border-width: 2px 2px 2px 2px;
+                min-width: 
+                border-color: #C3CF9F;
+                border-radius: 1px0px 10px 10px;
+                padding: 15px 20px 15px 20px;
+                }   
+            }
 
 
 nav a:link, 
 nav a:visited {
-    color:#000000;
+    color:#010200;
     text-decoration: none;
 }
 

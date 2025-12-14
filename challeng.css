@@ -24,6 +24,7 @@ nav ul {
     list-style-type: none;
     margin: 9px;
     padding: 20px;
+    gap: 10px;
 }
 
 nav li {
@@ -43,7 +44,9 @@ nav a {
                 fill: #0F1509;
                 color: #0F1509;
                 border-style: solid;    
-                border-width: 1px 1px 1px 1px;
+                border-spacing: 1px;       
+                border-width: 2px 2px 2px 2px;
+                min-width: 100px;
                 border-color: #C3CF9F;
                 border-radius: 10px 10px 10px 10px;
                 padding: 15px 20px 15px 20px;

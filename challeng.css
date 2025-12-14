@@ -89,6 +89,7 @@ h1 {
     margin: 20px 100px 20px 100px;
     border: 266px;
     position: 266px; 
+    margin-top: 55px;
 }
 
 h2 {
@@ -105,8 +106,50 @@ h2 {
     margin: 20px 100px 20px 100px;
     position: 266px;
     margin-right: 680px;
+    margin-top: auto;
 }
 
+h3 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    word-spacing: 0em;
+    border-width: 1px;
+    padding: 15px 30px;
+    margin: 20px 100px 20px 100px;
+    margin-right: 1219px;
+    line-height: 1.3em;
+    letter-spacing: 1.53px;
+    fill: #0F1509;
+    color: #0F1509;
+    border-style: solid;    
+    border-color: #C3CF9F;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px 20px 15px 20px;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 1px;
+    text-anchor: ;
+    
+}
 
-
+h3:link, 
+h3:visited {
+    color:#a4ad96;
+    text-decoration: none;
+    font-family: "Poppins", Sans-serif;
+}
+h3:hover,
+h3:active {
+    font-family: "Poppins", Sans-serif;
+    background-color: #C3CF9F;
+    text-decoration: none;
+    color: #C3CF9F;
+}
+}
+    
 
